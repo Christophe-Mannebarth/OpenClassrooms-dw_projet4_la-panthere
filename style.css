@@ -738,7 +738,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.32);
+    background-color: rgba(0, 0, 0, 0.62);
     padding: 40px 40px 40px 40px;
 }
 
@@ -803,11 +803,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere-1920x785.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation-1920x1080.webp");
 }
 
 @media (max-width: 1024px) {

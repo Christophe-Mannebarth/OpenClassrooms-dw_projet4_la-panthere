@@ -1014,6 +1014,12 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-txt-contrast {
+        padding: 20px;
+    }
+    .col-sm-12 {
+        padding: 0 !important;
+    }
 }
 
 @media (max-width: 400px) {

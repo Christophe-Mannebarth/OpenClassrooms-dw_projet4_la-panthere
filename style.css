@@ -887,8 +887,7 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding: 0 !important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1019,6 +1018,9 @@ h4 {
     }
     .col-sm-12 {
         padding: 0 !important;
+    }
+    .tight-width-whitespace {
+        max-width: 767px;
     }
 }
 

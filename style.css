@@ -962,6 +962,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1017,11 +1020,5 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }

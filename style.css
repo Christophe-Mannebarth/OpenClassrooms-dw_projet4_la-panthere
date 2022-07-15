@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+    background-color: #000000;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -113,10 +117,6 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -125,6 +125,13 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgb(255, 255, 255);
+}
+
+.d-bloc a .icon-sm,
+.d-bloc a .icon-md,
+.d-bloc a .icon-lg,
+.d-bloc a .icon-xl {
+    color: rgb(243, 151, 108);
 }
 
 .d-bloc .a-btn:hover,
@@ -581,13 +588,8 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    text-align: center;
+    padding: 10px;
 }
 
 .close-lightbox {
@@ -634,7 +636,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding: 10px 0 0 0;
 }
 
 .snapshot-lb .lightbox-caption {

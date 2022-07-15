@@ -401,7 +401,8 @@ a:hover {
         font-weight: 700;
     }
 
-    .navbar-nav>li>a:hover {
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:active {
         color: rgb(255, 30, 0);
     }
 }
@@ -941,14 +942,22 @@ h4 {
     .nav>li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: #F3976C;
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
 
-    .nav>li:hover {
-        background: rgba(0, 0, 0, .08);
+    .navbar-nav>li>a {
+        line-height: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:active {
+        color: rgb(255, 30, 0);
     }
 
     .dropdown .dropdown a .caret {

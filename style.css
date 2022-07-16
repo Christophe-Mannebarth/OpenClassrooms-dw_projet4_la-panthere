@@ -44,7 +44,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 10px;
 }
 
 .bloc-sm {
@@ -267,6 +267,13 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+
+.services,
+    .quote,
+    .portfolio {
+        margin-right: 16%;
+        margin-left: 16%;
+      }
 
 .row-no-gutters {
     margin-right: 0;
@@ -1101,6 +1108,13 @@ h4 {
     .tight-width-whitespace {
         max-width: 767px;
     }
+
+    .services,
+    .quote,
+    .portfolio {
+        margin-right: 2%;
+        margin-left: 2%;
+      }
 }
 
 @media (max-width: 400px) {

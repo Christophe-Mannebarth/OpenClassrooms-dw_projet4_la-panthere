@@ -690,8 +690,14 @@ p {
     margin: auto auto auto auto;
 }
 
-.whitespace {
-    margin: auto auto auto auto;
+.h-whitespace {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-whitespace {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .h1 {

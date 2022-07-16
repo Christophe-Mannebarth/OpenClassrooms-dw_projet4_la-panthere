@@ -269,11 +269,11 @@ a:hover {
 }
 
 .services,
-    .quote,
-    .portfolio {
-        margin-right: 16%;
-        margin-left: 16%;
-      }
+.quote,
+.portfolio {
+    margin-right: 16%;
+    margin-left: 16%;
+}
 
 .row-no-gutters {
     margin-right: 0;
@@ -1114,7 +1114,7 @@ h4 {
     .portfolio {
         margin-right: 2%;
         margin-left: 2%;
-      }
+    }
 }
 
 @media (max-width: 400px) {

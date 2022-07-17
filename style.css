@@ -557,7 +557,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: 'Andika New Basic', sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -660,9 +660,10 @@ h4,
 h5,
 h6,
 p,
+li,
 label,
 .btn {
-    font-family: "helvetica";
+    font-family: 'Andika New Basic', sans-serif;
     font-weight: 400;
     color: #000000 !important;
 }
@@ -712,11 +713,6 @@ p {
 .v-whitespace {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -823,7 +819,7 @@ h4 {
 
 .btn-form {
     display: flex;
-    
+
 }
 
 .ltc-white {

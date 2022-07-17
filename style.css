@@ -271,8 +271,8 @@ a:hover {
 .services,
 .quote,
 .portfolio {
-    margin-right: 16%;
-    margin-left: 16%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .row-no-gutters {
@@ -417,7 +417,7 @@ a:hover {
 
     .navbar-nav>li>a:hover,
     .navbar-nav>li>a:active {
-        color: rgb(255, 30, 0);
+        color: rgb(177, 23, 16);
     }
 }
 
@@ -701,7 +701,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 780px;
     margin: auto auto auto auto;
 }
 
@@ -780,6 +780,10 @@ h4 {
 .bg-txt-contrast {
     background-color: rgba(150, 50, 7, 0.87);
     padding: 40px 40px 40px 40px;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
 .bold-link {
@@ -808,13 +812,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgb(177, 23, 16);
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: white !important;
-    color: rgb(255, 30, 0) !important;
+    color: rgb(177, 23, 16) !important;
 }
 
 .btn-form {
@@ -827,7 +831,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: rgb(255, 30, 0) !important;
+    color: rgb(177, 23, 16) !important;
     background-color: white;
 }
 
@@ -1111,10 +1115,6 @@ h4 {
 
     .bg-txt-contrast {
         padding: 20px;
-    }
-
-    .col-sm-12 {
-        padding: 0 !important;
     }
 
     .tight-width-whitespace {

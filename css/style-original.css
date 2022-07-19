@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-toggle:focus,
+div:focus,
+button:focus,
+a:focus,
+i:focus,
+h1:focus,
+h2:focus,
+h3:focus,
+p:focus,
+footer:focus {
+    outline: 4px dashed darkorange;
+}
+
 footer {
     background-color: #000000;
 }
@@ -19,7 +32,6 @@ footer {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
 }
 
 a:hover {
@@ -478,10 +490,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none !important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -668,10 +676,15 @@ label,
     color: #000000 !important;
 }
 
+.form-txt-color h1,
 .form-txt-color h2,
 .form-txt-color p,
 .form-txt-color label {
     color: white !important;
+}
+
+.form-txt-color h1 {
+    font-size: 23px;
 }
 
 .container {
@@ -811,13 +824,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgb(177, 23, 16);
+    background: #b11710;
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: white !important;
-    color: rgb(177, 23, 16) !important;
+    color: #b11710 !important;
 }
 
 .btn-form {
@@ -976,7 +989,7 @@ h4 {
     .nav>li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: #F3976C;
+        background: #963207;
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -991,7 +1004,7 @@ h4 {
 
     .navbar-nav>li>a:hover,
     .navbar-nav>li>a:active {
-        color: rgb(255, 30, 0);
+        color: #ff1e00;
     }
 
     .dropdown .dropdown a .caret {

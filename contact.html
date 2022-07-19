@@ -26,43 +26,42 @@
   </head>
 
   <body>
+    <!-- header -->
+    <header class="bgc-white">
+      <div class="container bloc-sm">
+        <nav class="navbar row navbar-fixed-top bgc-white">
+          <div class="navbar-header">
+            <a tabindex="-1" class="navbar-brand" href="index.html">
+              <picture>
+                <source srcset="img/agence-la-panthere-banniere-300x55.webp" type="image/webp">
+                <source srcset="img/agence-la-panthere-banniere-300x55-safari.png" type="image/png">
+                <img src="img/agence-la-panthere-banniere-300x55.png" class="center-block image-resize-mode" width="300px" height="55px" alt="bannière de l'agence repésentant une tête de panthère">
+              </picture>
+            </a>
+            <button tabindex="0" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+            <menu class="site-navigation nav navbar-nav">
+              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
+                <a tabindex="0" href="index.html" aria-label="vers la page d'accueil">Accueil</a>
+              </li>
+              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
+                <a tabindex="0" href="contact.html" aria-label="vers la page de contact">Contact</a>
+              </li>
+            </menu>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header END -->
+
     <!-- Principal conteneur -->
     <main class="page-container">
-
-      <!-- header -->
-      <header class="bloc bgc-white l-bloc">
-        <div class="container bloc-sm">
-          <nav class="navbar row navbar-fixed-top bgc-white">
-            <div class="navbar-header">
-              <a tabindex="-1" class="navbar-brand" href="index.html">
-                <picture>
-                  <source srcset="img/agence-la-panthere-banniere-300x55.webp" type="image/webp">
-                  <source srcset="img/agence-la-panthere-banniere-300x55-safari.png" type="image/png">
-                  <img src="img/agence-la-panthere-banniere-300x55.png" class="center-block image-resize-mode" width="300px" height="55px" alt="bannière de l'agence repésentant une tête de panthère">
-                </picture>
-              </a>
-              <button tabindex="0" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-              <ul class="site-navigation nav navbar-nav">
-                <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
-                  <a tabindex="0" href="index.html" aria-label="vers la page d'accueil">Accueil</a>
-                </li>
-                <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
-                  <a tabindex="0" href="contact.html" aria-label="vers la page de contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!-- header END -->
-
       <!-- bloc-1 message d'accueil du formulaire -->
       <section class="bloc bg-banniere bg-t-edge b-parallax">
         <div class="container bloc-lg">
@@ -89,15 +88,17 @@
               <h1 tabindex="0">
                 <strong>Contact</strong>
               </h1>
-              <h2 tabindex="0">Par Email:</h2>
-              <p tabindex="0">
-                <strong>contact@agencelapanthere.com</strong>
-              </p>
-              <h2 tabindex="0">Par courrier postal:</h2>
-              <p tabindex="0">Agence de web design La Panthère</p>
-              <p tabindex="0">2 place Sathonay 69001 Lyon</p>
-              <h2 tabindex="0">Au magasin:</h2>
-              <p tabindex="0">Ouvert de 9h à 18h, du lundi au vendredi</p>
+              <address>
+                <h2 tabindex="0">Par Email:</h2>
+                <p tabindex="0">
+                  <strong>contact@agencelapanthere.com</strong>
+                </p>
+                <h2 tabindex="0">Par courrier postal:</h2>
+                <p tabindex="0">Agence de web design La Panthère</p>
+                <p tabindex="0">2 place Sathonay 69001 Lyon</p>
+                <h2 tabindex="0">Au magasin:</h2>
+                <p tabindex="0">Ouvert de 9h à 18h, du lundi au vendredi</p>
+              </address>
               <h2 tabindex="0">Par ce formulaire:</h2>
               <form id="form_1" novalidate="novalidate" success-msg="Votre message a été envoyé." fail-msg="Il semble que notre serveur de messagerie ne réponde pas, désolé pour le dérangement!">
                 <div class="form-group">

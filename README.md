@@ -45,5 +45,5 @@ Fais également attention à ce que le site soit toujours adapté à toutes les 
 Un fichier au format zip contenant :
 
 * Un document PDF du **rapport d’analyse SEO** du site, utilisant le modèle fourni, dans lequel on identifie clairement les 10 recommandations (minimum) sélectionnées ;
-* Un document TXT contenant le lien vers le repertoire GitHub du** code source** complet du site amélioré ;
+* Un document TXT contenant le lien vers le repertoire GitHub du **code source** complet du site amélioré ;
 * Un document PDF du **rapport d’optimisation** comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité).

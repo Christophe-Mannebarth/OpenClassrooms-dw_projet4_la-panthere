@@ -1153,11 +1153,11 @@ h4 {
     }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .tight-width-whitespace-form {
         max-width: 600px;
     }
-}
+}*/
 
 @media (max-width: 400px) {
     .bloc {

@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap">
     <link rel="stylesheet" type="text/css" href="./css/fontawesome-min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style-original.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-contact-min.css">
     <link rel="stylesheet" type="text/css" href="./css/et-line-min.css">
 
     <script src="https://code.jquery.com/jquery-2.1.0.min.js" integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=" crossorigin="anonymous"></script>
@@ -31,11 +31,11 @@
       <div class="container bloc-sm">
         <nav class="navbar row navbar-fixed-top bgc-white">
           <div class="navbar-header">
-            <a tabindex="-1" class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" tabindex="-1">
               <picture>
                 <source srcset="img/agence-la-panthere-banniere-300x55.webp" type="image/webp">
                 <source srcset="img/agence-la-panthere-banniere-300x55-safari.png" type="image/png">
-                <img src="img/agence-la-panthere-banniere-300x55.png" class="center-block image-resize-mode" width="300px" height="55px" alt="bannière de l'agence repésentant une tête de panthère" role="banner">
+                <img src="img/agence-la-panthere-banniere-300x55.png" class="center-block image-resize-mode" width="300" height="55" alt="bannière de l'agence repésentant une tête de panthère">
               </picture>
             </a>
             <button tabindex="0" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -46,12 +46,12 @@
             </button>
           </div>
           <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-            <menu class="site-navigation nav navbar-nav">
-              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine" role="button">
-                <a tabindex="0" href="index.html" aria-label="vers la page d'accueil">Accueil</a>
+            <menu class="site-navigation nav navbar-nav" role="menu">
+              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
+                <a tabindex="0" href="index.html" aria-label="vers la page d'accueil" role="button">Accueil</a>
               </li>
-              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine" role="button">
-                <a tabindex="0" href="contact.html" aria-label="vers la page de contact">Contact</a>
+              <li class="d-bloc btn-rd btn-clean btn-atomic-tangerine">
+                <a tabindex="0" href="contact.html" aria-label="vers la page de contact" role="button">Contact</a>
               </li>
             </menu>
           </div>
@@ -85,21 +85,21 @@
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace-form bg-txt-contrast form-panel-rd h-whitespace v-whitespace">
             <div class="col-sm-6 form-txt-color">
+              <h2 tabindex="0">Email:</h2>
+              <p tabindex="0">
+                <strong>contact@agencelapanthere.com</strong>
+              </p>
+              <h2 tabindex="0">Courrier postal:</h2>
               <address>
-                <h2 tabindex="0">Email:</h2>
-                <p tabindex="0">
-                  <strong>contact@agencelapanthere.com</strong>
-                </p>
-                <h2 tabindex="0">Courrier postal:</h2>
                 <p tabindex="0">Agence de web design La Panthère</p>
                 <p tabindex="0">2 place Sathonay 69001 Lyon</p>
-                <h2 tabindex="0">Au magasin:</h2>
-                <p tabindex="0">Ouvert de 9h à 18h, du lundi au vendredi</p>
               </address>
+              <h2 tabindex="0">Au magasin:</h2>
+              <p tabindex="0">Ouvert de 9h à 18h, du lundi au vendredi</p>
             </div>
             <div class="col-sm-6 form-txt-color">
               <h2 tabindex="0">Formulaire:</h2>
-              <form id="form_1" novalidate="novalidate" success-msg="Votre message a été envoyé." fail-msg="Il semble que notre serveur de messagerie ne réponde pas, désolé pour le dérangement!">
+              <form method="post" id="form_1" novalidate="novalidate">
                 <div class="form-group">
                   <label for="name">
                     Nom
